@@ -15,6 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
+@CrossOrigin(origins = "https://car-service-frontend-three.vercel.app")
 public class AuthController {
 
     @Autowired

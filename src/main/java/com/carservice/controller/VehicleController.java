@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/vehicles")
+@CrossOrigin(origins = "https://car-service-frontend-three.vercel.app")
 public class VehicleController {
 
     @Autowired

@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/job-cards")
+@CrossOrigin(origins = "https://car-service-frontend-three.vercel.app")
 public class JobCardController {
 
     @Autowired
