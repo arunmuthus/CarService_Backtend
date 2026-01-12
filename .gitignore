@@ -1,0 +1,9 @@
+
+.env
+.DS_Store
+target/
+mvnw
+mvnw.cmd
+.mvn/
+*.class
+*.log

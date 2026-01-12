@@ -40,7 +40,12 @@
 			<scope>test</scope>
 		</dependency>
         <!-- Adding Spring Security later if needed, keeping it simple first as requested -->
-	</dependencies>
+        <dependency>
+            <groupId>me.paulschwarz</groupId>
+            <artifactId>spring-dotenv</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
